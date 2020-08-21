@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+    
+.container{
+            height: 100vh;
+        
+        }
+.m{
+    margin-top: 10px;
+}
+.br{
+    border-right: 6px solid white;
+}
+.bl{
+    border-left: 6px solid white;
+}
+.header{
+    border-left: 3px solid black;
+    font-size: 0.7em;
+    margin-top: 20px;
+        }
+h2{
+    font-size: 1.5em;
+}
+.rowheight{
+    height: 100px;
+}
+.height1{
+    height: 50px;
+}
+.height2{
+    height: 400px;
+}
+.one{
+    float: left;
+}
+
+.about{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+.txt{
+    padding-top: 60px;
+}
+.team{
+    padding-top: 10px;
+    text-align: center;
+}
+.image{
+    padding-top: 20px;
+}
+.padding{
+    padding-top: 20px;
+}
+
+        
+.blue{
+    background-color: skyblue;
+    }
+.pink{
+    background-color: black;
+    color: white;
+}
+.grey{
+    background-color: darkgrey;
+    height: 60px;
+    margin-top: 1px;
+}
+.grey2{
+    background-color: grey;
+    height: 60px;
+    margin-top: 1px;
+}
+.head{
+    font-size: 10px;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+
+    .height1{
+        height: 20px;
+        text-align: center;
+    }
+    .brr{
+        border-right: 0;
+    }
+    .bll{
+        border-left: 0;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    
+    .height1{
+        height: 20px;
+}
+    .brr{
+        border-right: 0;
+    }
+    .bll{
+        border-left: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+   
+    .brr{
+        border-right: 0;
+    }
+    .bll{
+        border-left: 0;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .height1{
+    height: 50px;
+}
+    .br{
+    border-right: 6px solid white;
+}
+.bl{
+    border-left: 6px solid white;
+}
+    
+    
+}
+@media only screen and (min-width: 1200px) {
+    .height1{
+    height: 50px;
+}
+    .br{
+    border-right: 6px solid white;
+}
+.bl{
+    border-left: 6px solid white;
+}
+    
+    
+}
+
+
+
+
